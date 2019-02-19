@@ -30,14 +30,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent sticky-top"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container sticky-top">
+        <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <h2>RuNetOrg</h2>
             </Link>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">

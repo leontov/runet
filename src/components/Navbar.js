@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container sticky-top">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
@@ -49,19 +49,19 @@ const Navbar = class extends React.Component {
           <div id="navMenu" className="navbar-menu">
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
-                About
+                О компании
               </Link>
               <Link className="navbar-item" to="/products">
-                Products
+                Проекты
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                Блог
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                Контакты
               </Link>
               <Link className="navbar-item" to="/contact/examples">
-                Form Examples
+                Связаться с нами
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
